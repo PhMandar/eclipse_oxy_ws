@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="post" action="SimpleServletTestURL">
+		Enter Name : <input name="userName"/> <br><br>
+		Enter Surname : <input name="surName"/>
+		<br><br>
+		Profession : <br>
+		<input type="radio" value="developer" name="profession"/>Developer
+			
+		<br><br>
+		<input type="submit"/>
+	</form>
+</body>
+</html>

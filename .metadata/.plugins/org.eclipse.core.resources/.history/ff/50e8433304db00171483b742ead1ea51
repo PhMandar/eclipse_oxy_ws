@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="get" action="SimpleServletTestURL">
+		Enter Name : <input name="userName"/> <br><br>
+		Enter Surname : <input name="surName"/>
+		<br><br>
+		Profession : <br>
+		<input type="radio" value="developer" name="profession"/>Developer
+		<input type="radio" value="Tech Lead" name="profession"/>Lead
+		<br><br>
+		<select name="workingLocation" size="3" multiple="multiple">
+			<option value="Pune">Pune
+			<option value="Hyderabad">Hyderabad
+			<option value="Delhi">Delhi
+			<option value="Mumbai">Mumbai
+			<option value="Bengalore">Bengalore
+		</select>	
+		<br><br>
+		<input type="submit"/>
+	</form>
+</body>
+</html>
